@@ -4,7 +4,7 @@ defined('user') ? null : define ("user", "root") ;
 defined('pass') ? null : define("pass","");
 defined('database_name') ? null : define("database_name", "bondltd") ;*/
 
-defined('host') ? null : define("host", "us-cdbr-east-05.cleardb.net");
+defined('server') ? null : define("sever", "us-cdbr-east-05.cleardb.net");
 defined('user') ? null : define ("user", "b013bb8891e77e") ;
 defined('pass') ? null : define("pass","4e270dc8");
 defined('database_name') ? null : define("database_name", "heroku_4c8f4a6a6ddf304") ;
