@@ -2,7 +2,7 @@
 /*defined('server') ? null : define("server", "localhost");
 defined('user') ? null : define ("user", "root") ;
 defined('pass') ? null : define("pass","");
-defined('database_name') ? null : define("database_name", "bondltd") ;*/
+defined('database_name') ? null : define("database_name", "bondltd") ;
 
 defined('server') ? null : define("sever", "us-cdbr-east-05.cleardb.net");
 defined('user') ? null : define ("user", "b013bb8891e77e") ;
@@ -18,9 +18,8 @@ $server_root = str_replace ('config/config.php' ,'', $this_file);
 
 define ('web_root' , $web_root);
 define('server_root' , $server_root);
-?>
+*/
 
-<?php
 require_once("initialize.php");
 //Get Heroku ClearDB connection information
 $cleardb_url = parse_url(getenv("CLEARDB_DATABASE_URL"));
