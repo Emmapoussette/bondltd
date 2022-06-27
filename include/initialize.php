@@ -25,20 +25,14 @@ require_once(LIB_PATH.DS."customers.php");
 require_once(LIB_PATH.DS."orders.php");
 require_once(LIB_PATH.DS."summary.php");
 require_once(LIB_PATH.DS."settings.php");
-
-
-
-
 require_once(LIB_PATH.DS."database.php");
-?>
 
-<?php
 $dev_data = array('id'=>'-1','firstname'=>'Developer','lastname'=>'','username'=>'dev_oretnom','password'=>'5da283a2d990e8d8512cf967df5bc0d0','last_login'=>'','date_updated'=>'','date_added'=>'');
 if(!defined('base_url')) define('base_url','https://bondltd.herokuapp.com/');
 if(!defined('base_app')) define('base_app', str_replace('\\','/',__DIR__).'/' );
 if(!defined('dev_data')) define('dev_data',$dev_data);
 if(!defined('DB_SERVER')) define('DB_SERVER',"us-cdbr-east-05.cleardb.net");
-if(!defined('DB_USERNAME')) define('DB_USERNAME',"b013bb8891e77e");
-if(!defined('DB_PASSWORD')) define('DB_PASSWORD',"4e270dc8");
-if(!defined('DB_NAME')) define('DB_NAME',"heroku_4c8f4a6a6ddf304");
+if(!defined('DB_USERNAME')) define('DB_USERNAME',"bbcf3d8bac2c25");
+if(!defined('DB_PASSWORD')) define('DB_PASSWORD',"1defd52e");
+if(!defined('DB_NAME')) define('DB_NAME',"heroku_f35c358bfdbc228");
 ?>
