@@ -23,7 +23,7 @@ class Database {
 		 
 		}else{
 
-			$db_select = mysqli_select_db($this->conn,database_name);
+			$db_select = mysqli_select_db($this->conn,DB_NAME);
 			if (!$db_select) {
 				echo "Problem in selecting database! Contact administrator!";
 				exit();
